@@ -5,51 +5,59 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" href="./styles.css" />
       <title>Admin Dashboard</title>
+      <link rel="icon" type="image/x-icon" href="./images/zend.svg" />
    </head>
    <body>
       <div class="container">
          <div class="sidebar">
-            <h1>
-               <img src="./images/view-dashboard.svg" height="20px" />Dashboard
-            </h1>
-            <p><img src="./images/view-dashboard.svg" height="20px" />Home</p>
-            <p>
-               <img src="./images/view-dashboard.svg" height="20px" />Profile
-            </p>
-            <p>
-               <img src="./images/view-dashboard.svg" height="20px" />Messages
-            </p>
-            <p>
-               <img src="./images/view-dashboard.svg" height="20px" />History
-            </p>
-            <p><img src="./images/view-dashboard.svg" height="20px" />Tasks</p>
-            <div>
-               <img src="./images/view-dashboard.svg" height="20px" />Community
+            <img src="./images/view-dashboard.svg" id="image1" />
+            <h1 id="dash">Dashboard</h1>
+
+            <div class="first">
+               <img src="./images/home.svg" />
+               <img src="./images/account-circle.svg" />
+               <img src="./images/message-outline.svg" />
+               <img src="./images/history.svg" />
+               <img src="./images/file-edit-outline.svg" />
+               <img src="./images/account-group-outline.svg" />
+               <a href="#">Home</a>
+               <a href="#">Profile </a>
+               <a href="#">Messages </a>
+               <a href="#">History </a>
+               <a href="#">Tasks</a>
+               <a href="#">Community</a>
             </div>
-            <p>
-               <img src="./images/view-dashboard.svg" height="20px" />Settings
-            </p>
-            <p>
-               <img src="./images/view-dashboard.svg" height="20px" />Support
-            </p>
-            <p>
-               <img src="./images/view-dashboard.svg" height="20px" />Privacy
-            </p>
+            <div class="second">
+               <img src="./images/cog.svg" />
+               <img src="./images/tooltip-question-outline.svg" />
+               <img src="./images/lock-check-outline.svg" />
+               <a href="#"> Settings </a>
+               <a href="#"> Support </a>
+               <a href="#"> Privacy </a>
+            </div>
          </div>
          <div class="header">
             <div class="top">
-               <label for="search-bar">🔍</label>
-               <input type="text" id="search-bar" />
-			   <ul>
-               <img src="./images/view-dashboard.svg" height="20px" />
-               <img src="./images/view-dashboard.svg" height="20px" />
-               <h2>Zeddy York</h2>
-			   </ul>
+               <label for="search-bar"
+                  ><img src="./images/magnify.svg" height="30px"
+               /></label>
+               <input type="search" id="search-bar" />
+               <ul>
+                  <img src="./images/bell-badge-outline.svg" height="25px" />
+                  <img
+                     src="./images/cat.svg"
+                     height="50px"
+                     style="border-radius: 100%" />
+                  <h2>Zeddy York</h2>
+               </ul>
             </div>
             <div class="bottom">
-               <img src="./images/view-dashboard.svg" height="50px" />
+               <img
+                  src="./images/cat.svg"
+                  height="60px"
+                  style="border-radius: 45%" />
                <h4>Hi there,</h4>
-               <h2>Zeddy York</h2>
+               <h2>Zeddy York (@zeddy)</h2>
                <ul>
                   <button>New</button>
                   <button>Upload</button>
@@ -58,50 +66,111 @@
             </div>
          </div>
          <div class="content">
+            <p class="announce">Your Projects</p>
+            <p class="announce">Announcements</p>
             <div class="project">
                <div>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  <h2>Super cool project</h2>
+                  <p>
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </p>
+                  <ul>
+                     <img src="./images/star-check-outline.svg" height="20px" />
+                     <img src="./images/eye-check-outline.svg" height="20px" />
+                     <img src="./images/sticker.svg" height="20px" />
+                  </ul>
                </div>
                <div>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  <h2>Super cool project</h2>
+                  <p>
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </p>
+                  <ul>
+                     <img src="./images/star-check-outline.svg" height="20px" />
+                     <img src="./images/eye-check-outline.svg" height="20px" />
+                     <img src="./images/sticker.svg" height="20px" />
+                  </ul>
                </div>
                <div>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  <h2>Super cool project</h2>
+                  <p>
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </p>
+                  <ul>
+                     <img src="./images/star-check-outline.svg" height="20px" />
+                     <img src="./images/eye-check-outline.svg" height="20px" />
+                     <img src="./images/sticker.svg" height="20px" />
+                  </ul>
                </div>
                <div>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  <h2>Super cool project</h2>
+                  <p>
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </p>
+                  <ul>
+                     <img src="./images/star-check-outline.svg" height="20px" />
+                     <img src="./images/eye-check-outline.svg" height="20px" />
+                     <img src="./images/sticker.svg" height="20px" />
+                  </ul>
                </div>
                <div>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  <h2>Super cool project</h2>
+                  <p>
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </p>
+                  <ul>
+                     <img src="./images/star-check-outline.svg" height="20px" />
+                     <img src="./images/eye-check-outline.svg" height="20px" />
+                     <img src="./images/sticker.svg" height="20px" />
+                  </ul>
                </div>
                <div>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  <h2>Super cool project</h2>
+                  <p>
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  </p>
+                  <ul>
+                     <img src="./images/star-check-outline.svg" height="20px" />
+                     <img src="./images/eye-check-outline.svg" height="20px" />
+                     <img src="./images/sticker.svg" height="20px" />
+                  </ul>
                </div>
             </div>
             <div class="announcement">
                <div>
+                  <h3>Site Maintenance</h3>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                </div>
                <div>
+                  <h3>Community Share Day</h3>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                </div>
                <div>
+                  <h3>Updated Privacy Policy</h3>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                </div>
             </div>
             <div class="trending">
-               <div>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-               </div>
-               <div>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-               </div>
-               <div>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-               </div>
-               <div>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-               </div>
+               <img src="./images/face-man-outline.svg" />
+               <img src="./images/face-man.svg" />
+               <img src="./images/face-woman-profile.svg" />
+               <img src="./images/face-woman-outline.svg" />
+               <p>
+                  <span><strong>@trixxy</strong></span
+                  ><br />Lorem ipsum dolor sit amet.
+               </p>
+               <p>
+                  <span><strong>@zizi</strong></span
+                  ><br />Lorem ipsum dolor sit amet.
+               </p>
+               <p>
+                  <span><strong>@dante</strong></span
+                  ><br />Lorem ipsum dolor sit amet.
+               </p>
+               <p>
+                  <span><strong>@willomz</strong></span
+                  ><br />Lorem ipsum dolor sit amet.
+               </p>
             </div>
          </div>
       </div>
